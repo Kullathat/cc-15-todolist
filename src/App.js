@@ -1,6 +1,15 @@
+import './app.scss';
+import Header from './components/Header'
+
 function App() {
   return (
-    <div>React-App</div>
+    <div className='todo'>
+        <div className="todo__header">
+            <Header />
+        </div>
+        <div className="todo__sidebar">SideBar</div>
+        <div className="todo_content">TodoContent</div>
+    </div>
   );
 }
 
